@@ -17,7 +17,7 @@
 
 */
 
-
+/* 
 const userData = () => {
     let userName = prompt("Ingresa tu nombre por favor");
     let lastName = prompt("Ingresa tu apellido por favor");
@@ -39,7 +39,7 @@ const userData = () => {
     console.log(userObjetData);
 };
 userData();
-
+*/
 
 
 /*2.- crear una función que pida al usuario un año (2000, 1989, etc).
@@ -99,12 +99,12 @@ cars = [
 ]
 
 
-
+/* 
 const yearOfTheUserCar = () => {
-    let userCarYear = parseInt(prompt("Ingresa un año"));
+    let userCarYear = parseInt(prompt("Ingresa el año del carro de tu eleccion"));
     let choiceOfCarYear = getCar(cars, userCarYear);
     isNaN(userCarYear) ? (alert("Ingresa un número"), yearOfTheUserCar()) : (choiceOfCarYear,
-    choiceOfCarYear.length == 0 ? alert(`No se encontraron autos mayores del año ${userCarYear} `) : null);
+    choiceOfCarYear.length == 0 ? alert(`No se encontro el modelo de tu eleccion ${userCarYear} `) : null);
   };
   
   const getCar = (array, userCarYear) => {
@@ -118,6 +118,8 @@ const yearOfTheUserCar = () => {
   };
   
   yearOfTheUserCar();
+
+  */
 
 //////////////////////////////////////
 /* 
@@ -253,3 +255,4 @@ const yearOfTheUserCar = () => {
 ]
 
 */
+
